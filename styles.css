@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(to bottom right, #fff, #c3cfe2)
+    background-image: linear-gradient(to bottom, #fff, #c3cfe2);
+    background-repeat: repeat-x;
+    background-color: #c3cfe2;
 
 }
 
@@ -14,16 +16,28 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: rgb(36, 50, 65);
     font-size: 2.25rem;
+    font-weight: 400;
     text-align: center;
 }
 
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    color: rgb(19, 23, 27);
-    font-size: 1.5rem;
+    color: rgb(31, 36, 41);
+    font-size: 1.25rem;
     text-align: center;
 }
 
-.home-images{
-    height: 30rem;
+.image-block{
+    display: flex;
+    width: 100%;
+}
+
+.col {
+    display: table-cell;
+    padding: .175rem;
+}
+
+.responsive-image{
+    width: 100%;
+    height: auto;
 }
