@@ -72,12 +72,7 @@ p{
     height: auto;
 }
 
-.image-centered{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
 
 .nav-logo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -133,14 +128,70 @@ p{
 }
 
 .image-table{
-margin-left: auto;
-margin-right: auto;
-width: 70%;
-padding-top: 40px;
-padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
+.image-centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 
 
+
+  div.gallery {
+    border: 1px solid rgb(47, 59, 75);
+    background-color: rgb(218, 225, 233);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(95, 113, 136);
+    background-color: rgb(242, 244, 247);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px 12px 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
