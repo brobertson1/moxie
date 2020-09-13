@@ -5,6 +5,8 @@ body {
 
 }
 
+
+
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: rgb(39, 50, 61);
@@ -23,6 +25,16 @@ h2{
     padding-top: 3rem;
     text-align: center;
 }
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(54, 70, 87);
+    font-size: 1.50rem;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+
 .tagline{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: rgb(90, 101, 112);
@@ -33,7 +45,7 @@ h2{
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: rgb(31, 36, 41);
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 
